@@ -1,0 +1,2260 @@
+{
+  "user_profile": {
+    "name": "Maya",
+    "program": "Computer Science, Year 3",
+    "typical_sleep_hours": 7.5,
+    "baseline_load": 2,
+    "known_stressors": [
+      "group projects",
+      "technical interviews",
+      "family expectations"
+    ],
+    "coping_preferences": [
+      "short naps",
+      "lo-fi music",
+      "walks outside",
+      "breathing exercises"
+    ],
+    "communication_style": "direct but warm"
+  },
+  "baseline": {
+    "avg_sleep_hours": 7.4,
+    "avg_screen_time_hours": 5.2,
+    "avg_late_night_screen_hours": 0.8,
+    "avg_social_media_hours": 1.5,
+    "typical_daily_load_rating": 2
+  },
+  "sleep_log": [
+    {
+      "date": "2026-04-03",
+      "hours": 7.6,
+      "bedtime": "23:35",
+      "wake_time": "07:10"
+    },
+    {
+      "date": "2026-04-04",
+      "hours": 7.8,
+      "bedtime": "23:50",
+      "wake_time": "07:40"
+    },
+    {
+      "date": "2026-04-05",
+      "hours": 7.3,
+      "bedtime": "23:20",
+      "wake_time": "06:40"
+    },
+    {
+      "date": "2026-04-06",
+      "hours": 7.5,
+      "bedtime": "23:45",
+      "wake_time": "07:15"
+    },
+    {
+      "date": "2026-04-07",
+      "hours": 7.1,
+      "bedtime": "00:05",
+      "wake_time": "07:10"
+    },
+    {
+      "date": "2026-04-08",
+      "hours": 6.8,
+      "bedtime": "00:35",
+      "wake_time": "07:20"
+    },
+    {
+      "date": "2026-04-09",
+      "hours": 6.6,
+      "bedtime": "00:50",
+      "wake_time": "07:25"
+    },
+    {
+      "date": "2026-04-10",
+      "hours": 6.4,
+      "bedtime": "01:05",
+      "wake_time": "07:30"
+    },
+    {
+      "date": "2026-04-11",
+      "hours": 6.1,
+      "bedtime": "01:20",
+      "wake_time": "07:25"
+    },
+    {
+      "date": "2026-04-12",
+      "hours": 5.9,
+      "bedtime": "01:30",
+      "wake_time": "07:25"
+    },
+    {
+      "date": "2026-04-13",
+      "hours": 5.2,
+      "bedtime": "02:05",
+      "wake_time": "07:20"
+    },
+    {
+      "date": "2026-04-14",
+      "hours": 4.8,
+      "bedtime": "02:40",
+      "wake_time": "07:30"
+    },
+    {
+      "date": "2026-04-15",
+      "hours": 4.5,
+      "bedtime": "03:10",
+      "wake_time": "07:40"
+    },
+    {
+      "date": "2026-04-16",
+      "hours": 5.1,
+      "bedtime": "02:50",
+      "wake_time": "07:55"
+    }
+  ],
+  "screen_time_log": [
+    {
+      "date": "2026-04-03",
+      "total_hours": 5.0,
+      "late_night_hours": 0.7,
+      "social_media_hours": 1.4
+    },
+    {
+      "date": "2026-04-04",
+      "total_hours": 4.9,
+      "late_night_hours": 0.6,
+      "social_media_hours": 1.3
+    },
+    {
+      "date": "2026-04-05",
+      "total_hours": 5.1,
+      "late_night_hours": 0.8,
+      "social_media_hours": 1.5
+    },
+    {
+      "date": "2026-04-06",
+      "total_hours": 5.3,
+      "late_night_hours": 0.9,
+      "social_media_hours": 1.4
+    },
+    {
+      "date": "2026-04-07",
+      "total_hours": 5.4,
+      "late_night_hours": 0.9,
+      "social_media_hours": 1.5
+    },
+    {
+      "date": "2026-04-08",
+      "total_hours": 5.8,
+      "late_night_hours": 1.1,
+      "social_media_hours": 1.6
+    },
+    {
+      "date": "2026-04-09",
+      "total_hours": 6.1,
+      "late_night_hours": 1.2,
+      "social_media_hours": 1.8
+    },
+    {
+      "date": "2026-04-10",
+      "total_hours": 6.4,
+      "late_night_hours": 1.5,
+      "social_media_hours": 1.9
+    },
+    {
+      "date": "2026-04-11",
+      "total_hours": 6.8,
+      "late_night_hours": 1.7,
+      "social_media_hours": 2.0
+    },
+    {
+      "date": "2026-04-12",
+      "total_hours": 7.0,
+      "late_night_hours": 1.9,
+      "social_media_hours": 2.2
+    },
+    {
+      "date": "2026-04-13",
+      "total_hours": 7.6,
+      "late_night_hours": 2.4,
+      "social_media_hours": 2.5
+    },
+    {
+      "date": "2026-04-14",
+      "total_hours": 8.2,
+      "late_night_hours": 2.9,
+      "social_media_hours": 2.8
+    },
+    {
+      "date": "2026-04-15",
+      "total_hours": 8.6,
+      "late_night_hours": 3.3,
+      "social_media_hours": 3.0
+    },
+    {
+      "date": "2026-04-16",
+      "total_hours": 8.1,
+      "late_night_hours": 3.1,
+      "social_media_hours": 2.7
+    }
+  ],
+  "check_ins": [
+    {
+      "date": "2026-04-03",
+      "load_rating": 2,
+      "note": null
+    },
+    {
+      "date": "2026-04-04",
+      "load_rating": 2,
+      "note": "good rhythm today"
+    },
+    {
+      "date": "2026-04-05",
+      "load_rating": 2,
+      "note": null
+    },
+    {
+      "date": "2026-04-06",
+      "load_rating": 2,
+      "note": "labs took longer than expected"
+    },
+    {
+      "date": "2026-04-07",
+      "load_rating": 3,
+      "note": null
+    },
+    {
+      "date": "2026-04-08",
+      "load_rating": 2,
+      "note": "a little behind on project messages"
+    },
+    {
+      "date": "2026-04-09",
+      "load_rating": 2,
+      "note": null
+    },
+    {
+      "date": "2026-04-10",
+      "load_rating": 3,
+      "note": "having trouble starting interview prep"
+    },
+    {
+      "date": "2026-04-11",
+      "load_rating": 3,
+      "note": null
+    },
+    {
+      "date": "2026-04-12",
+      "load_rating": 3,
+      "note": "week feels packed already"
+    },
+    {
+      "date": "2026-04-13",
+      "load_rating": 4,
+      "note": "slept badly and everything feels louder"
+    },
+    {
+      "date": "2026-04-14",
+      "load_rating": 4,
+      "note": "cant focus today"
+    },
+    {
+      "date": "2026-04-15",
+      "load_rating": 4,
+      "note": "group project still unfinished and interview is friday"
+    },
+    {
+      "date": "2026-04-16",
+      "load_rating": 3,
+      "note": "running on coffee but almost submitted one part"
+    }
+  ],
+  "calendar_events": [
+    {
+      "title": "CS 331 Algorithms",
+      "start": "2026-04-17T09:00:00",
+      "end": "2026-04-17T10:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 340 Distributed Systems",
+      "start": "2026-04-17T11:00:00",
+      "end": "2026-04-17T12:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 352 HCI Studio",
+      "start": "2026-04-17T14:00:00",
+      "end": "2026-04-17T15:15:00",
+      "type": "class"
+    },
+    {
+      "title": "Coffee with Nia",
+      "start": "2026-04-18T11:00:00",
+      "end": "2026-04-18T12:30:00",
+      "type": "social"
+    },
+    {
+      "title": "CS 331 Algorithms",
+      "start": "2026-04-20T09:00:00",
+      "end": "2026-04-20T10:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 340 Distributed Systems",
+      "start": "2026-04-20T11:00:00",
+      "end": "2026-04-20T12:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 352 HCI Studio",
+      "start": "2026-04-20T14:00:00",
+      "end": "2026-04-20T15:15:00",
+      "type": "class"
+    },
+    {
+      "title": "Human-Centered AI Seminar",
+      "start": "2026-04-21T13:00:00",
+      "end": "2026-04-21T14:30:00",
+      "type": "class"
+    },
+    {
+      "title": "Campus IT Help Desk Shift",
+      "start": "2026-04-21T17:30:00",
+      "end": "2026-04-21T21:30:00",
+      "type": "work"
+    },
+    {
+      "title": "CS 331 Algorithms",
+      "start": "2026-04-22T09:00:00",
+      "end": "2026-04-22T10:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 340 Distributed Systems",
+      "start": "2026-04-22T11:00:00",
+      "end": "2026-04-22T12:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 352 HCI Studio",
+      "start": "2026-04-22T14:00:00",
+      "end": "2026-04-22T15:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 340 Group Project Due",
+      "start": "2026-04-23T18:00:00",
+      "end": "2026-04-23T18:15:00",
+      "type": "deadline"
+    },
+    {
+      "title": "CS 355 Optimization Assignment Due",
+      "start": "2026-04-23T23:00:00",
+      "end": "2026-04-23T23:30:00",
+      "type": "deadline"
+    },
+    {
+      "title": "Campus IT Help Desk Shift",
+      "start": "2026-04-23T17:30:00",
+      "end": "2026-04-23T21:30:00",
+      "type": "work"
+    },
+    {
+      "title": "CS 331 Algorithms",
+      "start": "2026-04-24T09:00:00",
+      "end": "2026-04-24T10:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 340 Distributed Systems",
+      "start": "2026-04-24T11:00:00",
+      "end": "2026-04-24T12:15:00",
+      "type": "class"
+    },
+    {
+      "title": "CS 352 HCI Studio",
+      "start": "2026-04-24T14:00:00",
+      "end": "2026-04-24T15:15:00",
+      "type": "class"
+    },
+    {
+      "title": "Nimbus Labs Technical Interview",
+      "start": "2026-04-24T15:30:00",
+      "end": "2026-04-24T16:30:00",
+      "type": "deadline"
+    },
+    {
+      "title": "Alina's Birthday Dinner",
+      "start": "2026-04-25T19:00:00",
+      "end": "2026-04-25T21:00:00",
+      "type": "social"
+    },
+    {
+      "title": "Roommate Movie Night",
+      "start": "2026-04-26T20:00:00",
+      "end": "2026-04-26T22:00:00",
+      "type": "social"
+    }
+  ],
+  "interaction_history": [
+    {
+      "timestamp": "2026-04-17T19:02:43",
+      "user_message": "i havent replied to my prof in 3 days and i feel awful about it",
+      "agent_response": "You\u2019ve been running on 4.5 to 5.1 hours and avoidance is showing up exactly where it usually does: messages. I drafted the note so the guilt loop stops here. Want me to draft a version for your prof, or for your project group?",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "You\u2019ve been under 5.5 hours for four of the last five nights and your load hit 4 three times this week, so this looks like burnout drift, not laziness. One next move: open the CS 340 project doc and read the prompt for 2 minutes, or want me to block 25 minutes for a reset first?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "im fine",
+      "agent_response": "Not really. Your sleep dropped from a 7.4h baseline to 5.1, 4.5, 4.8, and 5.2 across the last four nights, and your load hit 4 three times this week. That\u2019s burnout drift. Want me to pull the next 7 days of priorities, or block 25 minutes so your brain stops pinballing?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "should i skip class tomorrow",
+      "agent_response": "Tomorrow is not the class to skip by default. You already have the CS 340 project due Thursday at 6pm, the optimization assignment Thursday at 11pm, and the interview Friday at 3:30pm. Skip only if it buys recovery, not panic. Want me to show the next 3 days of priorities, or block a 20-minute recovery block tonight?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "i havent replied to my prof in 3 days and i feel awful about it",
+      "agent_response": "You\u2019ve been running on 4.5 to 5.1 hours and avoidance is showing up exactly where it usually does: messages. I drafted the note so the guilt loop stops here. Want me to draft a version for your prof, or for your project group?",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "whats going on with me lately",
+      "agent_response": "The short version: you were fine two weeks ago, and the last 7 to 10 days slid hard. Sleep fell from your 7.4h baseline to about 5.1h over the last five nights, late-night screen time tripled, and your load ratings jumped from 2s to 4s right before three deadlines land together. Want the full pattern breakdown, or one concrete next move?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours for four of the last five nights and your load hit 4 three times this week, so this looks like burnout drift, not laziness. One next move: open the CS 340 project doc and read the prompt for 2 minutes, or want me to block 25 minutes for a reset first?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "everyone else seems to be handling this fine why cant i",
+      "agent_response": "Not really. Your sleep dropped from a 7.4h baseline to 5.1, 4.5, 4.8, and 5.2 across the last four nights, and your load hit 4 three times this week. That\u2019s burnout drift. Want me to pull the next 7 days of priorities, or block 25 minutes so your brain stops pinballing?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-17T19:09:35",
+      "user_message": "ok block it",
+      "agent_response": "You\u2019ve been under 5.5 hours for four of the last five nights and your load hit 4 three times this week, so this looks like burnout drift, not laziness. One next move: open the CS 340 project doc and read the prompt for 2 minutes, or want me to block 25 minutes for a reset first?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-17T19:17:42",
+      "user_message": "i havent replied to my prof in 3 days and i feel awful about it",
+      "agent_response": "You've been running on 4\u20136 hours sleep and load 3\u20134 for a week straight. Avoidance when you're this fried is your brain protecting itself, not a character flaw.\n\nHere's a message you can send right now:\n\n---\n\n**\"Hi Professor [name],**\n\n**Apologies for the delay getting back to you \u2014 I've been slower to respond than I intended. I haven't dropped this and wanted to reconnect now. If it works for you, I'd appreciate a quick reset on next steps.**\n\n**Thanks for your patience,  \nMaya\"**\n\n---\n\nShort, honest, doesn't over-explain. Most profs just want to know you're still engaged.\n\nWant me to help you send it now, or do you need to adjust anything first?",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:17:54",
+      "user_message": "ok block it",
+      "agent_response": "Done. 25 minutes blocked starting now. Timer's running. Close your eyes, set a real alarm, don't scroll. \n\nWhen you're up, we'll map out tonight \u2014 CS 340 is the real deadline and it needs actual focus, not fumes.",
+      "tool_calls": [
+        "block_calendar_time"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:00",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "You're averaging 5.1 hours of sleep after five nights of getting to bed after 1 AM, and you have three deadlines stacked Thursday\u2013Friday. That freeze-up feeling isn't in your head \u2014 your brain genuinely can't prioritize right now because you're running a 2.3-hour nightly sleep deficit.\n\nHere's what actually matters this week:\n\n**Thursday 6 PM:** CS 340 Group Project  \n**Thursday 11 PM:** CS 355 Optimization Assignment  \n**Friday 3:30 PM:** Nimbus Labs Interview\n\nThe group project is the real anchor \u2014 you can't control the timeline alone. The optimization assignment you can crank if you have to. The interview will survive on 70% prep.\n\n**Right now, do this:** Open your CS 340 group chat or doc and write down *exactly* what part is still unfinished and who's supposed to do it. Don't fix it. Don't start working. Just map the 3\u20135 actual gaps. Two minutes max.\n\nOnce you've written that list, come back and tell me what you see. Then we'll pick the single smallest piece you can close tonight.\n\nWant me to block 20 minutes on your calendar right now for this, or do you need 10 minutes of lo-fi + a breathing exercise first to get your head clear enough to even look at it?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:08",
+      "user_message": "im fine",
+      "agent_response": "You're running 2.3 hours under baseline every night for five days straight, bedtime has shifted two hours later, and you've got three deadlines clustered Thursday\u2013Friday. Your own notes say \"can't focus,\" \"still unfinished,\" and \"running on coffee.\"\n\nThat's not fine. That's the week before things fall apart.\n\nYou've got 7 days until the group project and interview. Tonight matters. Want me to block 90 minutes right now for the CS 340 group part so you can get one piece done and actually sleep before 2am, or do you need 20 minutes of nothing first?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:18",
+      "user_message": "should i skip class tomorrow",
+      "agent_response": "Which class? You've got three tomorrow \u2014 Algorithms at 9, Distributed Systems at 11, and HCI Studio at 2.\n\nHere's what matters: CS 340 Distributed Systems is the one tied to your group project due Thursday 6pm. If the project's still unfinished and your group is meeting or discussing next steps, skipping that one could actually make Thursday worse.\n\nAlgorithms and HCI Studio are lower stakes this week unless there's a quiz or demo I don't know about.\n\n**The real question:** you're running on 5.1 hours average for five nights straight and you said you \"can't focus.\" Skipping a class to work more in that state is a terrible trade \u2014 you'll stare at code for three hours and produce 20 minutes of actual progress. \n\nIf you skip one to **sleep** and recover enough to actually function Thursday-Friday, that's different.\n\nSo: skip to rest, or skip to work?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:28",
+      "user_message": "i havent replied to my prof in 3 days and i feel awful about it",
+      "agent_response": "You've slept an average of **5.4 hours** this week and your load has been sitting at 3-4 for six straight days. Avoidance is what happens when your brain is running on fumes \u2014 not a character flaw.\n\nHere's a draft you can adapt:\n\n---\n\n**\"Hi Professor [Name],**\n\n**I apologize for the delay getting back to you. I haven't dropped this \u2014 I wanted to reconnect now and clarify next steps if you have a moment. Thank you for your patience.**\n\n**\u2014 Maya\"**\n\n---\n\nShort, clean, no spiral. Professors see late replies constantly; they care that you showed up, not that it took three days.\n\n**I just drafted that for you. Want me to open it so you can copy/send in the next 60 seconds, or do you need to adjust the wording first?**",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:37",
+      "user_message": "whats going on with me lately",
+      "agent_response": "You're running on fumes. You're down **2.3 hours of sleep per night** over the last five days \u2014 that's a **12-hour weekly deficit**. You've been going to bed between 1 AM and 3 AM instead of your usual time, and late-night screen time has tripled from 0.8h to 2.7h.\n\nYour load check-ins climbed from 3 to 4 all week. Your own words: *\"can't focus today,\" \"group project still unfinished,\" \"running on coffee.\"*\n\nHere's the real problem: **you have three deadlines between Thursday 6 PM and Friday 3:30 PM**, and you're hitting them sleep-deprived with focus already shot. That's not a time crunch \u2014 that's a collision.\n\nThe pattern is classic pre-burnout: less sleep \u2192 worse focus \u2192 more time needed \u2192 later nights \u2192 even worse sleep. You're in the loop.\n\n**Right now, what's the one thing blocking you from starting the group project or the optimization assignment?** Is it knowing what to do next, or just the wall of starting?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:25:48",
+      "user_message": "i cant sleep",
+      "agent_response": "**Then:** If you're still wired after 10 minutes, text me back. If not, we'll triage Thursday's deadlines in the morning when your brain actually works.\n\nThe interview prep can wait until Thursday night. Thursday's two deadlines are the real problem, and trying to fix them at 3 AM will just mean redoing them tomorrow.\n\nBreathing exercise is open. Hit play, face-down phone, then sleep. Yes?",
+      "tool_calls": [
+        "analyze_current_state",
+        "open_resource"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:26:02",
+      "user_message": "everyone else seems to be handling this fine why cant i",
+      "agent_response": "Done. 20 minutes blocked starting now. Nap or walk?",
+      "tool_calls": [
+        "analyze_current_state",
+        "block_calendar_time"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:26:09",
+      "user_message": "ok block it",
+      "agent_response": "Done. 25 minutes blocked starting 9:00am. Set an alarm and actually close your eyes \u2014 you're at 5.1 hours last night and 4.5 the night before. Even a half-sleep helps more than scrolling.\n\nWhen the timer goes, we tackle the CS 340 group project first since that's the Thursday 6pm deadline. Want me to open focus music for the rest block?",
+      "tool_calls": [
+        "block_calendar_time"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:39:27",
+      "user_message": "i havent replied to my prof in 3 days and i feel awful about it",
+      "agent_response": "You've averaged **5.1 hours of sleep** the last five nights and your load check-ins say \"can't focus\" and \"running on coffee.\" The avoidance is not a character flaw \u2014 it's a symptom of being fried.\n\nThree days isn't fatal yet. What does your professor need from you, and what's stopping you from sending it?\n\n(If it's just a simple reply and you're stuck on wording, I'll draft it for you right now. If it's something bigger \u2014 like you can't answer because you haven't done the work yet \u2014 then we triage differently.)",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:41:28",
+      "user_message": "ok block it",
+      "agent_response": "Done. Calendar blocked for 25 minutes starting now. Set a timer, close your eyes, and actually rest \u2014 no scrolling. When it goes off, we'll figure out which Thursday deadline to tackle first.",
+      "tool_calls": [
+        "block_calendar_time"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:42:01",
+      "user_message": "whats going on with me lately",
+      "agent_response": "You're running on fumes. You've dropped from 7.4 hours of sleep to 5.1 hours over the last week, and your bedtime has drifted from 1:05 AM to past 3:00 AM. Late-night screen time has tripled\u2014you're scrolling or staring at work when your brain should be shutting down.\n\nAt the same time, you have **three deadlines landing Thursday-Friday**: the CS 340 group project, the CS 355 optimization assignment, and the Nimbus Labs interview. Your load ratings have climbed to 3\u20134, and your own notes tell the story: \"can't focus,\" \"group project still unfinished,\" \"running on coffee.\"\n\n**What's actually happening:** you're in avoidance mode. Sleep debt is making it harder to start anything, so you're pushing tasks later, which cuts sleep more, which makes focus worse. It's a spiral.\n\nThe group project and CS 355 are both Thursday. That's the real bottleneck\u2014not Friday's interview. If we don't triage *right now*, Thursday will eat you alive and you'll walk into Friday fried.\n\n**What I need to know:** Is the group project actually blocked on you, or can someone else carry it tonight while you knock out CS 355?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:42:51",
+      "user_message": "ok block it",
+      "agent_response": "Done. Calendar blocked for 25 minutes starting now, and wind-down music is open. \n\nSet a timer, close your eyes, and actually let go. You've averaged 5.3 hours for the last week \u2014 this isn't optional anymore, it's damage control.\n\nI'll ping you at 9:25 to tackle the group project first (Thursday 6pm is tightest). Interview prep gets whatever's left after Thursday's fires are out.\n\nRest now.",
+      "tool_calls": [
+        "block_calendar_time",
+        "open_resource"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:42:53",
+      "user_message": "whats going on with me lately",
+      "agent_response": "You're running on a 2.3-hour sleep deficit per night for nearly a week, and your screen time after midnight has tripled. You've written \"can't focus,\" \"still unfinished,\" and \"running on coffee\" in your own check-ins. \n\nWhat's happening: **you're in avoidance mode.** The group project, the optimization assignment, and the interview are all landing Thursday-Friday, and instead of chipping away, you're staying up later, scrolling more, and restarting work when your brain is fried.\n\nThe pattern is classic: overload \u2192 stay up \u2192 feel worse \u2192 avoid the hard thing \u2192 stay up more.\n\n**The actual danger right now:** you're one more bad night from missing something or showing up to that interview underwater.\n\nYou've lost 11+ hours of sleep this week. That's the thing stealing your focus, not the assignments themselves.\n\nWhat do you want to stabilize first \u2014 tonight's sleep, or getting one piece of Thursday's work actually done while your brain still works?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:47:29",
+      "user_message": "im fine",
+      "agent_response": "You averaged **5.1 hours** sleep this week against your normal 7.4. You've been on your phone past 3am twice. You said yourself yesterday: \"can't focus today\" and \"running on coffee.\"\n\nYou have **three deadlines in seven days** \u2014 group project Thursday, optimization assignment Thursday night, interview Friday afternoon.\n\nYou're not fine. You're running on fumes and pretending you have bandwidth you don't.\n\nWhat you *do* have is 6 days. Here's what matters most right now: the **group project Thursday 6pm**. That one depends on other people and blowing it screws them over too.\n\nWant me to block 90 minutes tonight for just that \u2014 no phone, no scrolling, just touching the group doc so you know where it actually stands?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T19:58:49",
+      "user_message": "yeah how do i manage this",
+      "agent_response": "Done. Calendar blocked. Wind-down music open. Set an alarm for 30 minutes, sleep through it, then message your CS 340 group at 6:30pm to nail down what's actually left.\n\n**Do not touch CS 355 or interview prep tonight.** Thursday is the chokepoint. Rest now, triage the group work, sleep by midnight.\n\nWant me to draft the group message so you don't have to think about wording?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "block_calendar_time",
+        "block_calendar_time",
+        "open_resource"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T20:32:59",
+      "user_message": "yes its finals",
+      "agent_response": "Okay. You've averaged 5.1 hours of sleep for five straight nights with a 2.3-hour nightly deficit, you're hitting bed after 2 AM most nights, and you have **three** major deadlines packed into Thursday-Friday next week: the CS 340 group project (Thursday 6pm), CS 355 optimization (Thursday 11pm), and the Nimbus Labs interview (Friday 3:30pm).\n\nYour notes say \"group project still unfinished\" and \"running on coffee but almost submitted one part.\" That's the spiral \u2014 you're too tired to focus, so everything takes longer, so you sleep less, repeat.\n\n**Here's what matters right now:**\n\nYou have **six days** before Thursday. The group project is the highest-stakes item because other people depend on you. The optimization assignment you can solo-grind if needed. The interview you can't reschedule, but 70% prep will land better than burning out before you get there.\n\n**Tonight's plan:**\n\nBed by midnight. Not 2 AM. Not \"just one more thing.\" You've lost 11+ hours of sleep in five days and your brain is lying to you about what's productive right now. \n\n**Tomorrow (Thursday the 17th):** After your 2pm HCI class ends, you have open time. Use 90 minutes to get the group project to \"draft done\" status \u2014 even if it's rough. Then check in with your group about who's finishing what.\n\nWant me to block 90 minutes tomorrow 3:30-5pm for the group project sprint, and open focus music now so you can wind down by midnight?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:04:34",
+      "user_message": "i have so much to do",
+      "agent_response": "",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:04:44",
+      "user_message": "i cant sleep",
+      "agent_response": "",
+      "tool_calls": [
+        "analyze_current_state",
+        "open_resource",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:04:55",
+      "user_message": "whats going on with me lately",
+      "agent_response": "",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:05:36",
+      "user_message": "i have so much to do",
+      "agent_response": "Sleep is down and Thursday is the anchor. Start smaller than your stress is telling you to.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:05:44",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights. I opened the gentlest next step so tonight can actually slow down.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:05:54",
+      "user_message": "whats going on with me lately",
+      "agent_response": "You\u2019re in a sleep-deadline loop, not a motivation failure. The last week tilted hard toward burnout.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:06:45",
+      "user_message": "whats going on with me lately",
+      "agent_response": "You\u2019re in a sleep-deadline loop, not a motivation failure. The last week tilted hard toward burnout.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:15:21",
+      "user_message": "just got a lot on my mind",
+      "agent_response": "Your week has been heavier than your baseline. The pattern matters more than the guilt spiral.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T21:15:41",
+      "user_message": "What are my actual deadlines this week?",
+      "agent_response": "Your data says this week is heavier than usual. Let\u2019s keep the next move tiny.",
+      "tool_calls": [
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T23:30:49",
+      "user_message": "im sad",
+      "agent_response": "Your week has been heavier than your baseline. The pattern matters more than the guilt spiral.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T23:33:33",
+      "user_message": "my shit is not coming what do i do ",
+      "agent_response": "Sleep is down and Thursday is the anchor. Start smaller than your stress is telling you to.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-17T23:35:09",
+      "user_message": "how do i know  have anxiety",
+      "agent_response": "Sleep is down and Thursday is the anchor. Start smaller than your stress is telling you to.",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:01",
+      "user_message": "i have so much to do",
+      "agent_response": "Sleep is down and Thursday is still the anchor, so your brain is reading the whole week as one giant threat. That stuck feeling is what burnout drift looks like when focus breaks first. Want a protected sprint, or do you need a reset before you touch it?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:12",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights, and that\u2019s enough to make even simple shutdown feel impossible. This isn\u2019t you failing at sleep; it\u2019s your whole system still running hot. Want a breathing reset first, or a full wind-down?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:22",
+      "user_message": "whats going on with me lately",
+      "agent_response": "Your sleep has slipped while deadlines stacked up, and your load notes got heavier at the same time. That pattern is classic burnout drift, not some sudden motivation collapse. Want to look at the real fires, or reset first?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:22",
+      "user_message": "yes focus sprint",
+      "agent_response": "Thursday is still the anchor, and protected focus works better than trying to brute-force the whole week at once. I set up the sprint so the next 90 minutes already have a shape. Want the clearest priority first, or a quick status draft for your group?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:22",
+      "user_message": "yes rest first",
+      "agent_response": "Your sleep debt is already loud, so rest is the smart move, not the lazy one. I set up a real downshift instead of leaving you to improvise it. Want to sleep after this, or look at tomorrow once you feel steadier?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:00:22",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast. I started the exercise here so you do not have to leave the app to settle down. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:08",
+      "user_message": "i have so much to do",
+      "agent_response": "Sleep is down and Thursday is still the anchor, so your brain is reading the whole week as one giant threat. That stuck feeling is what burnout drift looks like when focus breaks first. Want a protected sprint, or do you need a reset before you touch it?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:17",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights, and that\u2019s enough to make even simple shutdown feel impossible. This isn\u2019t you failing at sleep; it\u2019s your whole system still running hot. Want a breathing reset first, or a full wind-down?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:27",
+      "user_message": "whats going on with me lately",
+      "agent_response": "Your sleep has slipped while deadlines stacked up, and your load notes got heavier at the same time. That pattern is classic burnout drift, not some sudden motivation collapse. Want to look at the real fires, or reset first?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:27",
+      "user_message": "yes focus sprint",
+      "agent_response": "Thursday is still the anchor, and protected focus works better than trying to brute-force the whole week at once when your sleep is already thin. I set up the sprint so the next 90 minutes already have a shape. Want the clearest priority first, or a quick status draft for your group?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:27",
+      "user_message": "yes rest first",
+      "agent_response": "Your sleep debt is already loud, so rest is the smart move, not the lazy one, especially with Thursday still hanging over the week. I set up a real downshift instead of leaving you to improvise it. Want to sleep after this, or look at tomorrow once you feel steadier?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:01:27",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:02:09",
+      "user_message": "i have so much to do",
+      "agent_response": "Sleep is down and Thursday is still the anchor, so your brain is reading the whole week as one giant threat. That stuck feeling is what burnout drift looks like when focus breaks first and everything suddenly feels equally urgent. Want a protected sprint, or do you need a reset before you touch it?",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:02:20",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights, and that\u2019s enough to make even simple shutdown feel impossible. This isn\u2019t you failing at sleep; it\u2019s your whole system still running hot after a brutal stretch. Want a breathing reset first, or a full wind-down?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:02:34",
+      "user_message": "whats going on with me lately",
+      "agent_response": "Your sleep has slipped while deadlines stacked up, and your load notes got heavier at the same time. That pattern is classic burnout drift, not some sudden motivation collapse or personal failure. Want to look at the real fires, or reset first?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:02:34",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:03:00",
+      "user_message": "i cant sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights, and that\u2019s enough to make even simple shutdown feel impossible. This isn\u2019t you failing at sleep; it\u2019s your whole system still running hot after a brutal stretch of late nights and deadlines. Want a breathing reset first, or a full wind-down?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:03:10",
+      "user_message": "whats going on with me lately",
+      "agent_response": "Your sleep has slipped while deadlines stacked up, and your load notes got heavier at the same time. That pattern is classic burnout drift, not some sudden motivation collapse or personal failure, and it usually gets better with smaller moves. Want to look at the real fires, or reset first?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:03:39",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:03:48",
+      "user_message": "yes focus sprint",
+      "agent_response": "Thursday is still the anchor, and protected focus works better than trying to brute-force the whole week at once when your sleep is already thin. I set up the sprint so the next 90 minutes already have a shape. Want the clearest priority first, or a quick status draft for your group?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:04:27",
+      "user_message": "yes focus sprint",
+      "agent_response": "Thursday is still the anchor, and protected focus works better than trying to brute-force the whole week at once when your sleep is already thin. I set up the sprint so the next 90 minutes already have a shape. Want the clearest priority first, or a quick status draft for your group?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:06:08",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:06:13",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:14:06",
+      "user_message": "i can't sleep",
+      "agent_response": "You\u2019ve been under 5.5 hours on four recent nights, and that\u2019s enough to make even simple shutdown feel impossible. This isn\u2019t you failing at sleep; it\u2019s your whole system still running hot after a brutal stretch of late nights and deadlines. Want a breathing reset first, or a full wind-down?",
+      "tool_calls": [
+        "analyze_current_state",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:14:14",
+      "user_message": "just breathing exercise",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:18:12",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T08:18:50",
+      "user_message": "set me up for a morning reset",
+      "agent_response": "Mornings go better when you stop guessing and let the real signals lead, especially after a rough sleep stretch. I pulled together a reset that shows the pattern, the actual priorities, and a small energy lift. Want the biggest fire first, or a gentler start?",
+      "tool_calls": [
+        "execute_care_plan"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:07:28",
+      "user_message": "i can't sleep",
+      "agent_response": "You've been getting progressively later to bed every night \u2014 you hit 3:10 am two nights ago, and your sleep dropped from 6.4 to 4.5 hours over the week. Your body's running on fumes and your screen time at night has tripled. \n\nI just started a 90-second box breathing in the app. Do that with me first, then tell me what's keeping you up.",
+      "tool_calls": [
+        "start_breathing_exercise",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:08:29",
+      "user_message": "i can't sleep",
+      "agent_response": "You've been under 5.5 hours for six straight nights and your mind is wired. I just started a 90-second breathing exercise above \u2014 follow it through. Your nervous system needs a reset before you can actually fall asleep. After this, want me to queue wind-down music and dim your notifications, or is something specific looping in your head that we need to handle first?",
+      "tool_calls": [
+        "start_breathing_exercise",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:08:39",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:09:16",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:11:49",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:14:47",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:15:43",
+      "user_message": "help me pick one tiny thing",
+      "agent_response": "Your data says this week is heavier than usual, and that usually means your next move needs to get smaller, not bigger. Nimbus works best when it takes one useful thing off your plate. Want a reset, or the clearest priority?",
+      "tool_calls": [
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:16:32",
+      "user_message": "I need to rest before I can look at anything",
+      "agent_response": "Your data says this week is heavier than usual, and that usually means your next move needs to get smaller, not bigger. Nimbus works best when it takes one useful thing off your plate. Want a reset, or the clearest priority?",
+      "tool_calls": [
+        "execute_care_plan",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:19:25",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:21:18",
+      "user_message": "start a breathing exercise for me",
+      "agent_response": "Your system sounds overheated, not broken, and one minute of guided breathing can interrupt that spiral fast when sleep has been this shaky. I started the exercise here so you do not have to leave the app to settle down tonight. Want to sleep after, or handle one tiny thing?",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:21:42",
+      "user_message": "help me pick one tiny thing",
+      "agent_response": "Your data says this week is heavier than usual, and that usually means your next move needs to get smaller, not bigger. Nimbus works best when it takes one useful thing off your plate. Want a reset, or the clearest priority?",
+      "tool_calls": [
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:23:04",
+      "user_message": "Draft a message to my CS 340 group",
+      "agent_response": "I need a bit more context to draft the right message. \n\nYour CS 340 group project is due Thursday 6pm \u2014 two days out. Your last check-in said it's still unfinished, and you've been running at load 4 most of the week on under 5 hours of sleep.\n\nWhat do you need to say to them? Are you:\n- Asking for status/what's left\n- Saying you can't finish your part\n- Proposing a division of what's left\n- Something else?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T09:23:31",
+      "user_message": "show me my upcoming deadlines",
+      "agent_response": "Your data says this week is heavier than usual, and that usually means your next move needs to get smaller, not bigger. Nimbus works best when it takes one useful thing off your plate. Want a reset, or the clearest priority?",
+      "tool_calls": [
+        "get_upcoming_priorities",
+        "suggest_quick_actions"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:48:12",
+      "user_message": "",
+      "agent_response": "Hey Maya. Your week's been heavy. Let's start with a breath, then figure out your day.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:48:15",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:48:17",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:48:19",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T09:48:22",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:49:39",
+      "user_message": "x",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T09:49:39",
+      "user_message": "x",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:08:38",
+      "user_message": "",
+      "agent_response": "Hey Maya. Your week's been heavy. Let's start with a breath, then figure out your day.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:09:31",
+      "user_message": "",
+      "agent_response": "Hey Maya. Your week's been heavy. Let's start with a breath, then figure out your day.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:09:42",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:10:17",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:10:21",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:10:28",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:10:35",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:10:47",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:10:51",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:28:05",
+      "user_message": "",
+      "agent_response": "Hey Maya. Your week's been heavy. Let's start with a breath, then figure out your day.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:31:18",
+      "user_message": "",
+      "agent_response": "Hey Maya. Sleep's been shaky and Thursday is stacked, so I'd start smaller than your stress wants to. A quick breath first will make the rest of this feel less loud.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:31:40",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:31:53",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:31:59",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:32:05",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:32:21",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:32:31",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:32:39",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:41:38",
+      "user_message": "",
+      "agent_response": "Hey Maya. Sleep's been shaky and Thursday is stacked, so I'd start smaller than your stress wants to. A quick breath first will make the rest of this feel less loud.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:42:07",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:44:53",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "You\u2019ve got the classic too-many-tabs-open look right now: sleep is down, Thursday is crowded, and that makes every task feel equally loud. You probably can work, just not from this exact headspace. Want a tiny breathing reset first, or do you want me to show you the real week so the pile stops feeling abstract?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:44:53",
+      "user_message": "i can't sleep",
+      "agent_response": "Your system sounds hot, not lazy. When sleep has been this shaky, the fastest useful move is usually to calm the noise before you try to think clearly. Want a one-minute breathing reset, or should I just keep you company and show the week gently?",
+      "tool_calls": [
+        "analyze_current_state"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:44:54",
+      "user_message": "something feels off lately",
+      "agent_response": "This week has a lot more friction than usual, and it makes sense that your brain is jumping ahead of itself. We can take this smaller so it stops feeling like one giant mess. Want a quick reset first, or should I show you what\u2019s actually urgent?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:45:28",
+      "user_message": "",
+      "agent_response": "Hey Maya. Sleep's been shaky and Thursday is stacked, so I'd start smaller than your stress wants to. A quick breath first will make the rest of this feel less loud.",
+      "tool_calls": [
+        "analyze_current_state",
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:48:01",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:48:01",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:48:56",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:49:08",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:49:24",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:50:20",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:50:23",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:50:27",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:53:24",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:53:38",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:53:48",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:53:52",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:53:55",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:54:00",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:54:05",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:54:24",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:54:28",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:54:34",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:54:44",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:55:02",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:55:24",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:55:38",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:55:42",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T10:55:50",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:55:58",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:56:14",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T10:56:18",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:06:21",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:06:34",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:08:13",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:11:00",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:11:14",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:11:17",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:12:29",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:15:21",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:15:22",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:16:32",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:16:36",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:17:36",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:17:44",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:17:53",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:19:43",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:19:52",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:20:01",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:20:27",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:20:31",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:20:39",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:20:51",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:20:57",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:21:01",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:24:17",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:24:23",
+      "user_message": "i have so much to do i cant even start",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:24:32",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:24:44",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:24:48",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T11:24:53",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:25:00",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:25:05",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T11:25:08",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:05:55",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T12:06:05",
+      "user_message": "it's a lot",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:06:16",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:06:29",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:06:33",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T12:06:40",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:06:50",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:06:55",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:07:01",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:09:12",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T12:09:21",
+      "user_message": "i'm okay",
+      "agent_response": "Okay. If you want, I can check the week and help you sort what actually matters first, or we can leave it light for a second and just talk.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T12:09:41",
+      "user_message": "show me the week",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T12:09:44",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T13:34:24",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T14:19:19",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T14:53:06",
+      "user_message": "it's a lot",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T14:54:51",
+      "user_message": "common we dint get any extra time and coundt explain a lot of shit",
+      "agent_response": "Okay. If you want, I can check the week and help you sort what actually matters first, or we can leave it light for a second and just talk.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T14:54:57",
+      "user_message": "show me the week",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T14:55:04",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T14:55:09",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T14:55:13",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T14:58:12",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T16:10:12",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T16:10:27",
+      "user_message": "thes too much going on",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:10:53",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:11:15",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:11:21",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T16:11:29",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:11:42",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:11:53",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T16:11:57",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T18:15:51",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T18:16:04",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T21:50:24",
+      "user_message": "",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T21:50:37",
+      "user_message": "it's a lot",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:50:56",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:51:23",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:51:44",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T21:51:52",
+      "user_message": "start project now",
+      "agent_response": "Okay. Open the CS 340 doc and name the three unfinished pieces before you try to build anything. I\u2019ll stay here if the extension draft becomes the smarter move.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-18T21:52:06",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:52:21",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:52:38",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-18T21:52:48",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T14:49:58",
+      "user_message": "it's a lot",
+      "agent_response": "Okay. If you want, I can check the week and help you sort what actually matters first, or we can leave it light for a second and just talk.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T14:50:06",
+      "user_message": "show me the week",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T14:50:09",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T14:50:14",
+      "user_message": "start project now",
+      "agent_response": "Okay. Open the CS 340 doc and name the three unfinished pieces before you try to build anything. I\u2019ll stay here if the extension draft becomes the smarter move.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T14:50:20",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T14:50:31",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T14:50:37",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T14:50:41",
+      "user_message": "one more thing",
+      "agent_response": "That was the hard part. You can stop here and let the night get quieter.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T16:21:04",
+      "user_message": "it's a lot",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T16:21:11",
+      "user_message": "it's a lot",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:21:42",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:22:51",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:22:55",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-21T16:23:03",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:23:16",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:23:48",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T16:23:51",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:34:08",
+      "user_message": "it's a lot",
+      "agent_response": "Hey Maya. How's it going? Are you managing okay right now, or does the week feel like a lot?",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-22T16:34:12",
+      "user_message": "it's a lot",
+      "agent_response": "Yeah, I checked your week and it really is packed, especially with CS 340 pulling Thursday into everything else. That kind of schedule makes it hard to tell what matters first. Before we plan anything, let's get your head a little quieter so you're not sorting it from panic. Want to start with a breath?",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:34:25",
+      "user_message": "start with a breath",
+      "agent_response": "",
+      "tool_calls": [
+        "start_breathing_exercise"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:34:50",
+      "user_message": "i'm ready",
+      "agent_response": "Better? Okay. Let's look at your week.",
+      "tool_calls": [
+        "get_upcoming_priorities"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:34:52",
+      "user_message": "plan my week",
+      "agent_response": "Your CS 340 group project is the Thursday anchor. But you're way behind \u2014 we might need an extension to make this realistic.",
+      "tool_calls": []
+    },
+    {
+      "timestamp": "2026-04-22T16:35:00",
+      "user_message": "draft extension email",
+      "agent_response": "You\u2019re stretched enough that asking early is smarter than grinding until 2am. I drafted the note so you can clear the uncertainty before tonight gets louder.",
+      "tool_calls": [
+        "draft_message"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:35:12",
+      "user_message": "send the extension email",
+      "agent_response": "Sent. I'll add a follow-up reminder for Thursday morning \u2014 if Professor Chen responds with a new deadline, I'll update your calendar automatically.",
+      "tool_calls": [
+        "calendar_watcher"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:35:23",
+      "user_message": "nice, what's next?",
+      "agent_response": "One thing off your plate. That's the whole point.",
+      "tool_calls": [
+        "celebration"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T16:35:26",
+      "user_message": "play my song",
+      "agent_response": "Here's a bit of momentum music. You earned it.",
+      "tool_calls": [
+        "music_player"
+      ]
+    }
+  ],
+  "current_stress_signal": {
+    "level": "elevated",
+    "summary": "Sleep down 2.3 hours from baseline over last 5 days. Late-night screen time tripled. Load check-ins trending from 2 to 3.5. Three deadlines clustering Thursday-Friday next week.",
+    "trend_direction": "worsening",
+    "key_signals": [
+      "sleep_deficit: 11.5 hours accumulated over last 5 days",
+      "bedtime_shift: now 2+ hours later than baseline",
+      "deadline_cluster: 3 major items within 24 hours on 2026-04-23 to 2026-04-24",
+      "load_rating_drop: 4s appeared in last 4 days"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nimbus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="backdrop-stage">
+      <section class="ambient-story">
+        <p class="ambient-tag">Nimbus</p>
+        <h1>a tiny companion with opinions, timing, and a pulse</h1>
+        <p>
+          Nimbus is not a dashboard. It notices the week, nudges one useful
+          next move, and feels alive while doing it.
+        </p>
+      </section>
+    </main>
+
+    <div class="nimbus-layer">
+      <button id="compactWidget" class="widget-shell avatar-state-idle" type="button" aria-label="Open Nimbus">
+        <span id="compactUnreadDot" class="widget-unread hidden"></span>
+        <span id="compactSurfaceBubble" class="widget-surface-bubble">!</span>
+        <span class="compact-avatar-wrap">
+          <svg class="nimbus-avatar compact-avatar" viewBox="0 0 140 140" aria-hidden="true">
+            <defs>
+              <linearGradient id="nimbusGradientCompact" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#F5D5B8"></stop>
+                <stop offset="100%" stop-color="#E8956B"></stop>
+              </linearGradient>
+            </defs>
+            <g class="avatar-root">
+              <g class="sparkle-cluster">
+                <circle class="sparkle sparkle-a" cx="28" cy="30" r="4"></circle>
+                <circle class="sparkle sparkle-b" cx="111" cy="32" r="3"></circle>
+                <circle class="sparkle sparkle-c" cx="23" cy="108" r="3"></circle>
+                <circle class="sparkle sparkle-d" cx="113" cy="110" r="4"></circle>
+              </g>
+              <g class="speech-dots">
+                <circle class="dot dot-1" cx="52" cy="12" r="4"></circle>
+                <circle class="dot dot-2" cx="70" cy="8" r="4"></circle>
+                <circle class="dot dot-3" cx="88" cy="12" r="4"></circle>
+              </g>
+              <text class="sleep-zzz" x="98" y="26">z z z</text>
+              <g class="avatar-body-wrap">
+                <g class="avatar-float-wrap">
+                  <path
+                    class="avatar-body"
+                    d="M70 16C88 16 103 30 106 50C109 72 100 96 84 110C77 116 74 121 70 127C66 121 63 116 56 110C40 96 31 72 34 50C37 30 52 16 70 16Z"
+                    fill="url(#nimbusGradientCompact)"
+                  ></path>
+                  <path class="avatar-highlight" d="M49 34C57 26 69 23 80 26"></path>
+                  <g class="eyebrows">
+                    <path class="brow brow-left" d="M47 49C52 44 60 44 65 49"></path>
+                    <path class="brow brow-right" d="M76 49C81 44 89 44 94 49"></path>
+                  </g>
+                  <g class="eyes">
+                    <ellipse class="eye eye-left" cx="54" cy="61" rx="7" ry="9"></ellipse>
+                    <ellipse class="eye eye-right" cx="86" cy="61" rx="7" ry="9"></ellipse>
+                    <path class="happy-eye happy-eye-left" d="M47 62C50 57 58 57 61 62"></path>
+                    <path class="happy-eye happy-eye-right" d="M79 62C82 57 90 57 93 62"></path>
+                    <line class="sleep-eye sleep-eye-left" x1="48" y1="62" x2="60" y2="62"></line>
+                    <line class="sleep-eye sleep-eye-right" x1="80" y1="62" x2="92" y2="62"></line>
+                  </g>
+                  <path class="mouth mouth-smile" d="M56 82C62 88 78 88 84 82"></path>
+                  <ellipse class="mouth mouth-open" cx="70" cy="83" rx="8" ry="3"></ellipse>
+                  <circle class="balloon-knot" cx="70" cy="127" r="2"></circle>
+                  <path class="balloon-string" d="M70 128C71 132 68 136 70 141"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </button>
+
+      <section id="expandedWindow" class="nimbus-window hidden" aria-live="polite">
+        <section class="window-hero">
+          <button id="collapseButton" class="close-button" type="button" aria-label="Collapse Nimbus">×</button>
+          <div id="heroAvatarWrap" class="hero-avatar-wrap avatar-state-idle">
+            <svg class="nimbus-avatar hero-avatar" viewBox="0 0 160 160" aria-hidden="true">
+              <defs>
+                <linearGradient id="nimbusGradientHero" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F5D5B8"></stop>
+                  <stop offset="100%" stop-color="#E8956B"></stop>
+                </linearGradient>
+              </defs>
+              <g class="avatar-root">
+                <g class="sparkle-cluster">
+                  <circle class="sparkle sparkle-a" cx="34" cy="32" r="4"></circle>
+                  <circle class="sparkle sparkle-b" cx="126" cy="34" r="3"></circle>
+                  <circle class="sparkle sparkle-c" cx="30" cy="123" r="3"></circle>
+                  <circle class="sparkle sparkle-d" cx="128" cy="124" r="4"></circle>
+                </g>
+                <g class="speech-dots">
+                  <circle class="dot dot-1" cx="59" cy="13" r="4"></circle>
+                  <circle class="dot dot-2" cx="80" cy="9" r="4"></circle>
+                  <circle class="dot dot-3" cx="101" cy="13" r="4"></circle>
+                </g>
+                <text class="sleep-zzz" x="109" y="28">z z z</text>
+                <g class="avatar-body-wrap">
+                  <g class="avatar-float-wrap">
+                    <path
+                      class="avatar-body"
+                      d="M80 18C101 18 119 34 123 58C127 82 117 108 98 124C91 131 86 138 80 146C74 138 69 131 62 124C43 108 33 82 37 58C41 34 59 18 80 18Z"
+                      fill="url(#nimbusGradientHero)"
+                    ></path>
+                    <path class="avatar-highlight" d="M56 39C65 30 79 27 93 30"></path>
+                    <g class="eyebrows">
+                      <path class="brow brow-left" d="M55 55C61 49 70 49 77 55"></path>
+                      <path class="brow brow-right" d="M84 55C91 49 100 49 106 55"></path>
+                    </g>
+                    <g class="eyes">
+                      <ellipse class="eye eye-left" cx="63" cy="70" rx="8" ry="10"></ellipse>
+                      <ellipse class="eye eye-right" cx="97" cy="70" rx="8" ry="10"></ellipse>
+                      <path class="happy-eye happy-eye-left" d="M55 72C59 66 68 66 72 72"></path>
+                      <path class="happy-eye happy-eye-right" d="M89 72C93 66 102 66 106 72"></path>
+                      <line class="sleep-eye sleep-eye-left" x1="56" y1="71" x2="70" y2="71"></line>
+                      <line class="sleep-eye sleep-eye-right" x1="90" y1="71" x2="104" y2="71"></line>
+                    </g>
+                    <path class="mouth mouth-smile" d="M65 95C72 103 88 103 95 95"></path>
+                    <ellipse class="mouth mouth-open" cx="80" cy="96" rx="9" ry="4"></ellipse>
+                    <circle class="balloon-knot" cx="80" cy="146" r="2.5"></circle>
+                    <path class="balloon-string" d="M80 147C81 151 77 155 80 160"></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <h2 class="hero-name">Nimbus</h2>
+          <p id="heroStatus" class="hero-status">here with you</p>
+          <button id="contextPeekButton" class="context-peek-chip" type="button">
+            Nimbus noticed 3 things <span class="chip-chevron">▾</span>
+          </button>
+          <div id="contextPeekCard" class="context-peek-card hidden">
+            <ul id="contextPeekList" class="context-peek-list"></ul>
+          </div>
+        </section>
+
+        <section id="chatMessages" class="conversation-zone"></section>
+
+        <form id="chatForm" class="input-zone">
+          <label class="sr-only" for="messageInput">Message Nimbus</label>
+          <div class="input-shell">
+            <textarea
+              id="messageInput"
+              class="chat-input"
+              rows="1"
+              placeholder="tell Nimbus what's up…"
+            ></textarea>
+            <button id="micHintButton" class="mic-hint-button" type="button" aria-label="Voice integration hint">
+              <span class="mic-glyph">🎙</span>
+            </button>
+            <span class="input-shortcut-hint">⌘ space</span>
+            <button id="sendButton" class="send-button" type="submit" aria-label="Send message">
+              <span class="send-arrow">➜</span>
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
