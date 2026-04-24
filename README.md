@@ -1,64 +1,76 @@
 # Nimbus
 
-Nimbus is a local AI companion prototype for student burnout.
+Nimbus is an AI companion for student burnout.
 
-The current build is centered on one idea: an assistant should not feel like a dashboard, a chatbot, or a wellness worksheet. It should feel like a tiny companion that notices patterns, reacts to real context, and helps a student take the smallest useful next action.
+Instead of acting like a dashboard or a generic chatbot, Nimbus tries to feel like a tiny on-screen companion that notices when a week is tilting in the wrong direction and helps a student take one useful next step.
 
-This project currently follows Maya, a third-year Computer Science student drifting toward burnout across a realistic 14-day dataset. Nimbus reads that context, surfaces what matters, and responds with practical support like prioritization, simulated calendar blocking, in-app breathing guidance, and draft messages.
+The current prototype follows Maya, a third-year Computer Science student drifting toward burnout across a realistic 14-day dataset. Nimbus reads that context, notices the patterns that matter, and responds with practical support like prioritization, in-app breathing guidance, recovery flows, and drafted messages.
 
-## What Nimbus Does Today
+## Live Demo
 
-- Local FastAPI backend with a simple HTML/CSS/JS frontend
-- Context-aware agent responses grounded in `data/seed.json`
-- Rich seed data for Maya:
-  - sleep
-  - screen time
-  - daily load check-ins
-  - calendar events
-  - stress signal summary
-- Stress-aware tool layer:
-  - `analyze_current_state`
-  - `get_upcoming_priorities`
-  - `block_calendar_time` (simulated)
-  - `open_resource`
-  - `draft_message`
-  - `suggest_quick_actions`
-  - `start_breathing_exercise`
-  - `execute_care_plan`
-  - `clear_the_night`
-- Animated companion UI:
-  - balloon avatar
-  - breathing / blinking / floating states
-  - tool cards
-  - quick actions
-  - in-app breathing exercise
-- Native-feeling launch mode via small Chrome app window
+- Live app: [https://nimbus-web-production.up.railway.app](https://nimbus-web-production.up.railway.app)
+- GitHub repo: [Nimbus](https://github.com/shubhamjoshipromail-svg/Nimbus)
 
-## Current Experience
+## What Nimbus Feels Like
 
-Nimbus currently supports:
+- A small floating balloon companion instead of a full browser app
+- A warm chat-first interface instead of a productivity dashboard
+- Context-grounded support instead of generic wellness advice
+- Agentic moments like blocking time, drafting outreach, opening resources, and guiding a breathing reset inside the app
 
-- Opening as a floating assistant balloon in app mode
-- Expanding into a full side-panel conversation UI
-- Natural opening check-in instead of an immediate dashboard dump
-- Context-grounded conversations like:
-  - "i have so much to do i cant even start"
-  - "i can't sleep"
-  - "whats going on with me lately"
-- Agentic support moments like:
-  - breathing resets
-  - focus sprints
-  - clearing the night
-  - drafting an extension email
-  - queuing music/resources
+## Current Capabilities
+
+### Context and reasoning
+
+- Reads structured student context before every reply
+- Grounds responses in actual sleep, load, screen-time, and deadline patterns
+- Uses Maya's recent stress drift as the reference point for decisions
+- Supports live Claude responses with tool use
+
+### Agent tools
+
+- `analyze_current_state`
+- `get_upcoming_priorities`
+- `block_calendar_time` (simulated)
+- `open_resource`
+- `draft_message`
+- `suggest_quick_actions`
+- `start_breathing_exercise`
+- `execute_care_plan`
+- `clear_the_night`
+
+### Frontend experience
+
+- Floating balloon avatar with breathing, blinking, bobbing, and caring states
+- Expandable assistant shell with chat, tool cards, and quick actions
+- In-app breathing exercise instead of kicking users out to a video
+- Native-feeling Chrome app mode for demo presentation
+
+## Example Moments
+
+Nimbus currently handles prompts like:
+
+- `i have so much to do i cant even start`
+- `i can't sleep`
+- `whats going on with me lately`
+- `i havent replied to my prof in 3 days`
+
+And can respond with flows like:
+
+- a breathing reset before planning
+- a focus sprint with music and time blocking
+- a full "clear the night" recovery sequence
+- a drafted extension email when the schedule is no longer realistic
 
 ## Stack
 
-- Backend: Python, FastAPI
+- Backend: Python + FastAPI
 - Frontend: vanilla HTML, CSS, JavaScript
 - Model: Anthropic Claude Sonnet 4.5
-- Storage: JSON seed data with optional PostgreSQL-backed interaction logging
-- Launchers: shell / batch scripts for app-style presentation
+- Seed data: JSON
+- Interaction persistence: PostgreSQL when `DATABASE_URL` is present
+- Deployment: Railway
+- Demo shell: Chrome app mode via launcher scripts
 
 ## Project Structure
 
@@ -76,12 +88,14 @@ nimbus-demo/
 │   ├── app.js
 │   ├── index.html
 │   └── style.css
+├── Dockerfile
 ├── launch_nimbus.bat
 ├── launch_nimbus.sh
+├── railway.json
 └── README.md
 ```
 
-## Running It Locally
+## Run Locally
 
 ### 1. Install dependencies
 
@@ -92,27 +106,28 @@ source .venv/bin/activate
 pip install -r backend/requirements.txt
 ```
 
-### 2. Add your Anthropic key
+### 2. Add environment variables
 
 Create a root `.env` file:
 
 ```env
 ANTHROPIC_API_KEY=sk-ant-api...
+DATABASE_URL=postgresql://user:password@host:5432/dbname
 ```
 
-### 3. Start the app
+`DATABASE_URL` is optional locally. If omitted, Nimbus falls back to JSON-backed interaction logging.
 
-Standard dev mode:
+### 3. Start the dev server
 
 ```bash
 uvicorn backend.main:app --reload --port 8000
 ```
 
-Then open:
+Open:
 
 - [http://localhost:8000](http://localhost:8000)
 
-### 4. Launch the native-feeling demo shell
+### 4. Launch the native-feeling shell
 
 macOS / Linux:
 
@@ -126,82 +141,61 @@ Windows:
 launch_nimbus.bat
 ```
 
-Deployed URL in app mode:
+Launch app mode against the live Railway deployment:
 
 ```bash
-./launch_nimbus.sh https://your-service.up.railway.app
-```
-
-Or:
-
-```bash
-export NIMBUS_BASE_URL=https://your-service.up.railway.app
-./launch_nimbus.sh
+./launch_nimbus.sh https://nimbus-web-production.up.railway.app
 ```
 
 ## Deploying To Railway
 
-Railway works well for Nimbus in its current shape because the app is a single FastAPI service that also serves the frontend.
+Nimbus is now configured to deploy cleanly on Railway with a Docker-based runtime.
 
-### Recommended setup
+### Recommended Railway setup
 
 - 1 web service from this GitHub repo
-- 1 PostgreSQL service attached in Railway
-- `ANTHROPIC_API_KEY` as a Railway variable
-- `DATABASE_URL` provided by Railway Postgres for durable interaction logging
+- 1 PostgreSQL service in the same Railway project
+- `ANTHROPIC_API_KEY` set in the web service
+- `DATABASE_URL` pointed at the Railway Postgres service
 
-### Why PostgreSQL helps
+### Why Postgres is worth using
 
-Without a database, `interaction_history` writes back to `data/seed.json`, which is fine locally but not ideal on cloud hosts with ephemeral filesystems.
+The seed persona still lives in `data/seed.json`, which is perfect for demo context.
 
-With `DATABASE_URL` set, Nimbus now:
+But cloud-hosted interaction history should not depend on local file writes. With `DATABASE_URL` set, Nimbus:
 
-- keeps the seed data in JSON
-- stores new interaction history in PostgreSQL
+- keeps Maya's seed state in JSON
+- stores new interactions in PostgreSQL
 - reads recent interaction history back from PostgreSQL automatically
-
-### Railway steps
-
-1. Create a new Railway project.
-2. Add a web service from this GitHub repo.
-3. Add a PostgreSQL service to the same project.
-4. In the web service variables, set:
-   - `ANTHROPIC_API_KEY=...`
-   - `DATABASE_URL=${{Postgres.DATABASE_URL}}`
-5. Deploy the web service.
-6. Generate a public domain in the web service Networking tab.
-7. Confirm:
-   - `/health` returns `200`
-   - `/` loads the Nimbus frontend
-   - `/chat` works with your Anthropic key
 
 ### Railway config in this repo
 
-This repo now includes:
+This repo includes:
 
+- `Dockerfile`
 - `railway.json`
 - `.python-version`
 
-The service is configured to:
+The live Railway service uses:
 
-- install from `backend/requirements.txt`
-- start with `uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}`
-- use `/health` as the deployment healthcheck
+- Docker-based Python runtime
+- `GET /health` as the healthcheck
+- FastAPI serving both backend and frontend from one service
 
-### App mode against the deployed URL
+### Manual Railway steps
 
-Once Railway gives you a public URL, you can still launch Nimbus as a Chrome app window:
-
-```bash
-./launch_nimbus.sh https://your-service.up.railway.app
-```
-
-That launcher now:
-
-- skips local server startup when the target is remote
-- health-checks the deployed `/health` endpoint
-- opens Chrome in app mode with `?mode=app`
-- preserves the small-balloon -> expanded-panel behavior
+1. Create a Railway project.
+2. Add a web service from this repo.
+3. Add PostgreSQL.
+4. Set service variables:
+   - `ANTHROPIC_API_KEY=...`
+   - `DATABASE_URL=${{Postgres.DATABASE_URL}}`
+5. Deploy.
+6. Generate a Railway domain.
+7. Verify:
+   - `/health` returns `200`
+   - `/` loads the app
+   - `/chat` responds successfully
 
 ## API Endpoints
 
@@ -214,96 +208,80 @@ That launcher now:
 
 ### Agent behavior
 
-- Reads structured student context before every response
-- References actual sleep, load, and deadline patterns
-- Uses tools when action is more useful than advice
-- Supports normal live/fallback operation instead of a forced scripted backbone
+- Context-first responses grounded in actual student state
+- Tool use when action is more useful than advice
+- Recovery-aware flows like breathing, rest, and clearing the night
+- Quick actions under replies for low-friction follow-up
 
-### Companion interactions
+### Interface behavior
 
-- Quick action chips under replies
-- Tool result cards before text
-- Gentle typing animation
-- Companion state changes:
-  - idle
-  - listening
-  - thinking
-  - talking
-  - caring
-  - celebrating
-  - sleeping
+- Balloon avatar with stateful animation
+- Tool cards before text for a more visual interaction rhythm
+- Type-in assistant responses
+- App-mode launcher for a native-feeling demo surface
 
-### Demo helpers
+### Demo-friendly details
 
-- Floating app-mode launcher
-- Expand/collapse assistant shell
-- Small-window balloon mode
-- Rich README and test harnesses for iterative demos
+- Works in normal browser mode and in Chrome app mode
+- Can launch locally or against a deployed Railway URL
+- Preserves the small-balloon -> expanded-panel interaction in app mode
 
 ## Known Limits
 
-- Seed data still lives in JSON
-- Calendar actions are simulated
+- Seed persona is still single-user and JSON-based
+- Calendar integration is simulated
 - Email sending is simulated
 - Notifications are simulated
-- Voice is hinted in UI, not fully integrated
-- GitHub publishing is not wired from inside the app itself
+- Voice is hinted in the UI, not fully implemented
+- Most agentic actions are still demo-grade rather than production-integrated
 
-## What We’re Working On Next
+## Roadmap
 
-This is meant to stay active as an ongoing project, not a frozen hackathon snapshot.
-
-Near-term roadmap:
+### Near term
 
 - real calendar integration
 - real email send / draft sync
-- persistent conversation memory
-- full migration from JSON seed storage to database-backed user state
-- better follow-up logic after actions complete
-- real voice input + speech output
-- mobile shell / desktop wrapper
+- deeper persistent conversation memory
+- full migration from JSON-only state to database-backed user state
+- better post-action follow-up logic
+- real voice input and speech output
 - multiple student profiles instead of one seed persona
-- proactive nudges based on changing risk signals
-- richer semester timeline, not just a short 14-day window
-- better admin/debug panel for inspecting context and tool traces
 
-Longer-term ideas:
+### Longer term
 
+- syllabus or LMS ingestion
+- richer deadline-cluster detection
+- longer-term burnout trend tracking
 - campus-specific support resources
-- LMS / syllabus ingestion
-- deadline clustering detection across multiple classes
-- burnout risk trend tracking over time
-- check-in loops that feel helpful instead of nagging
-- multi-agent support: planner, triage, and recovery modes
+- planner / triage / recovery mode orchestration
 
 ## Why This Project Exists
 
-Most student productivity tools assume the student is already organized enough to use them.
+Most student productivity tools assume the student is already organized enough to use them well.
 
 Nimbus is trying to do the opposite:
 
 - notice the pattern first
-- lower the activation energy
-- act like a practical companion
-- keep the interface emotionally lightweight
+- reduce the activation energy
+- feel emotionally lightweight
+- make the next useful action feel obvious
 
-The goal is not to produce more advice.
+The goal is not to generate more advice.
 
-The goal is to make the next useful action feel obvious and doable.
+The goal is to make support feel timely, practical, and human.
 
 ## Demo Notes
 
-If you are showing this live:
+If you are showing Nimbus live:
 
-- launch in app mode
-- start with the collapsed balloon
-- expand into chat
-- use a natural overwhelmed prompt
-- let Nimbus suggest a breathing reset
-- move into priorities / extension / recovery flows from there
+- launch it in app mode
+- start from the floating balloon
+- open with a natural overwhelmed prompt
+- let Nimbus guide one reset before planning
+- use the priorities, extension, or recovery flows from there
 
 ## Status
 
 Active work in progress.
 
-Nimbus is already strong as a demo and interaction prototype, and the next phase is making more of the agentic support real instead of simulated.
+Nimbus is already strong as a prototype for interaction design and agentic support. The next phase is making more of the helpful behavior real, durable, and integrated into actual student workflows.
