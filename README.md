@@ -57,7 +57,7 @@ Nimbus currently supports:
 - Backend: Python, FastAPI
 - Frontend: vanilla HTML, CSS, JavaScript
 - Model: Anthropic Claude Sonnet 4.5
-- Storage: JSON files only
+- Storage: JSON seed data with optional PostgreSQL-backed interaction logging
 - Launchers: shell / batch scripts for app-style presentation
 
 ## Project Structure
@@ -126,6 +126,83 @@ Windows:
 launch_nimbus.bat
 ```
 
+Deployed URL in app mode:
+
+```bash
+./launch_nimbus.sh https://your-service.up.railway.app
+```
+
+Or:
+
+```bash
+export NIMBUS_BASE_URL=https://your-service.up.railway.app
+./launch_nimbus.sh
+```
+
+## Deploying To Railway
+
+Railway works well for Nimbus in its current shape because the app is a single FastAPI service that also serves the frontend.
+
+### Recommended setup
+
+- 1 web service from this GitHub repo
+- 1 PostgreSQL service attached in Railway
+- `ANTHROPIC_API_KEY` as a Railway variable
+- `DATABASE_URL` provided by Railway Postgres for durable interaction logging
+
+### Why PostgreSQL helps
+
+Without a database, `interaction_history` writes back to `data/seed.json`, which is fine locally but not ideal on cloud hosts with ephemeral filesystems.
+
+With `DATABASE_URL` set, Nimbus now:
+
+- keeps the seed data in JSON
+- stores new interaction history in PostgreSQL
+- reads recent interaction history back from PostgreSQL automatically
+
+### Railway steps
+
+1. Create a new Railway project.
+2. Add a web service from this GitHub repo.
+3. Add a PostgreSQL service to the same project.
+4. In the web service variables, set:
+   - `ANTHROPIC_API_KEY=...`
+   - `DATABASE_URL=${{Postgres.DATABASE_URL}}`
+5. Deploy the web service.
+6. Generate a public domain in the web service Networking tab.
+7. Confirm:
+   - `/health` returns `200`
+   - `/` loads the Nimbus frontend
+   - `/chat` works with your Anthropic key
+
+### Railway config in this repo
+
+This repo now includes:
+
+- `railway.json`
+- `.python-version`
+
+The service is configured to:
+
+- install from `backend/requirements.txt`
+- start with `uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}`
+- use `/health` as the deployment healthcheck
+
+### App mode against the deployed URL
+
+Once Railway gives you a public URL, you can still launch Nimbus as a Chrome app window:
+
+```bash
+./launch_nimbus.sh https://your-service.up.railway.app
+```
+
+That launcher now:
+
+- skips local server startup when the target is remote
+- health-checks the deployed `/health` endpoint
+- opens Chrome in app mode with `?mode=app`
+- preserves the small-balloon -> expanded-panel behavior
+
 ## API Endpoints
 
 - `GET /health`
@@ -165,7 +242,7 @@ launch_nimbus.bat
 
 ## Known Limits
 
-- No real database yet
+- Seed data still lives in JSON
 - Calendar actions are simulated
 - Email sending is simulated
 - Notifications are simulated
@@ -181,6 +258,7 @@ Near-term roadmap:
 - real calendar integration
 - real email send / draft sync
 - persistent conversation memory
+- full migration from JSON seed storage to database-backed user state
 - better follow-up logic after actions complete
 - real voice input + speech output
 - mobile shell / desktop wrapper

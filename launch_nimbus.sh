@@ -2,21 +2,35 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP_URL="http://localhost:8000?mode=app&fresh=$(date +%s)"
-SERVER_URL="http://localhost:8000/health"
+BASE_URL="${1:-${NIMBUS_BASE_URL:-http://localhost:8000}}"
+URL_NO_QUERY="${BASE_URL%%\?*}"
+URL_NO_TRAILING_SLASH="${URL_NO_QUERY%/}"
+QUERY_GLUE="?"
+if [[ "$BASE_URL" == *\?* ]]; then
+  QUERY_GLUE="&"
+fi
+APP_URL="${BASE_URL}${QUERY_GLUE}mode=app&fresh=$(date +%s)"
+SERVER_URL="${URL_NO_TRAILING_SLASH}/health"
+IS_LOCALHOST=false
+if [[ "$URL_NO_TRAILING_SLASH" == "http://localhost:8000" ]] || [[ "$URL_NO_TRAILING_SLASH" == http://localhost:* ]] || [[ "$URL_NO_TRAILING_SLASH" == "http://127.0.0.1:8000" ]] || [[ "$URL_NO_TRAILING_SLASH" == http://127.0.0.1:* ]]; then
+  IS_LOCALHOST=true
+fi
 
 cd "$ROOT_DIR"
 
-if lsof -nP -iTCP:8000 -sTCP:LISTEN >/dev/null 2>&1; then
-  echo "Nimbus server already running on port 8000."
-else
-  echo "Starting Nimbus server on port 8000..."
-  if command -v uvicorn >/dev/null 2>&1; then
-    nohup uvicorn backend.main:app --port 8000 >/tmp/nimbus-demo.log 2>&1 &
+if [[ "$IS_LOCALHOST" == true ]]; then
+  if lsof -nP -iTCP:8000 -sTCP:LISTEN >/dev/null 2>&1; then
+    echo "Nimbus server already running on port 8000."
   else
-    nohup python -m uvicorn backend.main:app --port 8000 >/tmp/nimbus-demo.log 2>&1 &
+    echo "Starting Nimbus server on port 8000..."
+    if command -v uvicorn >/dev/null 2>&1; then
+      nohup uvicorn backend.main:app --port 8000 >/tmp/nimbus-demo.log 2>&1 &
+    else
+      nohup python -m uvicorn backend.main:app --port 8000 >/tmp/nimbus-demo.log 2>&1 &
+    fi
+    sleep 3
   fi
-  sleep 3
+
 fi
 
 if ! curl -fsS "$SERVER_URL" >/dev/null 2>&1; then
